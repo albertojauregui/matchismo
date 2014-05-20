@@ -22,6 +22,7 @@
 		15D53DB5192B19010018EE69 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DB4192B19010018EE69 /* Card.m */; };
 		15D53DB8192B1A1C0018EE69 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DB7192B1A1C0018EE69 /* Deck.m */; };
 		15D53DBB192B1EB70018EE69 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DBA192B1EB70018EE69 /* PlayingCard.m */; };
+		15D53DBE192B26790018EE69 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DBD192B26790018EE69 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		15D53DB7192B1A1C0018EE69 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		15D53DB9192B1EB70018EE69 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		15D53DBA192B1EB70018EE69 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		15D53DBC192B26790018EE69 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		15D53DBD192B26790018EE69 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				15D53DB7192B1A1C0018EE69 /* Deck.m */,
 				15D53DB9192B1EB70018EE69 /* PlayingCard.h */,
 				15D53DBA192B1EB70018EE69 /* PlayingCard.m */,
+				15D53DBC192B26790018EE69 /* PlayingCardDeck.h */,
+				15D53DBD192B26790018EE69 /* PlayingCardDeck.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15D53DB8192B1A1C0018EE69 /* Deck.m in Sources */,
+				15D53DBE192B26790018EE69 /* PlayingCardDeck.m in Sources */,
 				15D53D91192B18640018EE69 /* main.m in Sources */,
 				15D53D95192B18640018EE69 /* AJCAppDelegate.m in Sources */,
 				15D53DBB192B1EB70018EE69 /* PlayingCard.m in Sources */,
