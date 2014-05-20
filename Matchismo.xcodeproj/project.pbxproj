@@ -21,6 +21,7 @@
 		15D53DAA192B18640018EE69 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DA9192B18640018EE69 /* MatchismoTests.m */; };
 		15D53DB5192B19010018EE69 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DB4192B19010018EE69 /* Card.m */; };
 		15D53DB8192B1A1C0018EE69 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DB7192B1A1C0018EE69 /* Deck.m */; };
+		15D53DBB192B1EB70018EE69 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DBA192B1EB70018EE69 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		15D53DB4192B19010018EE69 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		15D53DB6192B1A1C0018EE69 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		15D53DB7192B1A1C0018EE69 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		15D53DB9192B1EB70018EE69 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		15D53DBA192B1EB70018EE69 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				15D53DB4192B19010018EE69 /* Card.m */,
 				15D53DB6192B1A1C0018EE69 /* Deck.h */,
 				15D53DB7192B1A1C0018EE69 /* Deck.m */,
+				15D53DB9192B1EB70018EE69 /* PlayingCard.h */,
+				15D53DBA192B1EB70018EE69 /* PlayingCard.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				15D53DB8192B1A1C0018EE69 /* Deck.m in Sources */,
 				15D53D91192B18640018EE69 /* main.m in Sources */,
 				15D53D95192B18640018EE69 /* AJCAppDelegate.m in Sources */,
+				15D53DBB192B1EB70018EE69 /* PlayingCard.m in Sources */,
 				15D53DB5192B19010018EE69 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
