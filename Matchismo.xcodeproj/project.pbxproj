@@ -19,6 +19,7 @@
 		15D53DA0192B18640018EE69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D53D88192B18640018EE69 /* UIKit.framework */; };
 		15D53DA8192B18640018EE69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15D53DA6192B18640018EE69 /* InfoPlist.strings */; };
 		15D53DAA192B18640018EE69 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DA9192B18640018EE69 /* MatchismoTests.m */; };
+		15D53DB5192B19010018EE69 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D53DB4192B19010018EE69 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		15D53DA5192B18640018EE69 /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
 		15D53DA7192B18640018EE69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15D53DA9192B18640018EE69 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		15D53DB3192B19010018EE69 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		15D53DB4192B19010018EE69 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				15D53D94192B18640018EE69 /* AJCAppDelegate.m */,
 				15D53D96192B18640018EE69 /* Images.xcassets */,
 				15D53D8B192B18640018EE69 /* Supporting Files */,
+				15D53DB3192B19010018EE69 /* Card.h */,
+				15D53DB4192B19010018EE69 /* Card.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			files = (
 				15D53D91192B18640018EE69 /* main.m in Sources */,
 				15D53D95192B18640018EE69 /* AJCAppDelegate.m in Sources */,
+				15D53DB5192B19010018EE69 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
