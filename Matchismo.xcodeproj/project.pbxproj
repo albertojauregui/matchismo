@@ -124,18 +124,11 @@
 		15D53D8A192B18640018EE69 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				15D53DB3192B19010018EE69 /* Card.h */,
-				15D53DB4192B19010018EE69 /* Card.m */,
 				15D53DC1192B2A410018EE69 /* CardGameViewController.h */,
 				15D53DC2192B2A410018EE69 /* CardGameViewController.m */,
-				15D53DB6192B1A1C0018EE69 /* Deck.h */,
-				15D53DB7192B1A1C0018EE69 /* Deck.m */,
 				15D53D96192B18640018EE69 /* Images.xcassets */,
 				15D53DBF192B29F50018EE69 /* Main.storyboard */,
-				15D53DB9192B1EB70018EE69 /* PlayingCard.h */,
-				15D53DBA192B1EB70018EE69 /* PlayingCard.m */,
-				15D53DBC192B26790018EE69 /* PlayingCardDeck.h */,
-				15D53DBD192B26790018EE69 /* PlayingCardDeck.m */,
+				15D53DC4192B36290018EE69 /* Model */,
 				15D53D8B192B18640018EE69 /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -170,6 +163,21 @@
 				15D53DA6192B18640018EE69 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15D53DC4192B36290018EE69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15D53DB3192B19010018EE69 /* Card.h */,
+				15D53DB4192B19010018EE69 /* Card.m */,
+				15D53DB6192B1A1C0018EE69 /* Deck.h */,
+				15D53DB7192B1A1C0018EE69 /* Deck.m */,
+				15D53DB9192B1EB70018EE69 /* PlayingCard.h */,
+				15D53DBA192B1EB70018EE69 /* PlayingCard.m */,
+				15D53DBC192B26790018EE69 /* PlayingCardDeck.h */,
+				15D53DBD192B26790018EE69 /* PlayingCardDeck.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
