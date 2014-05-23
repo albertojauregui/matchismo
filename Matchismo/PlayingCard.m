@@ -10,6 +10,20 @@
 
 @implementation PlayingCard
 
+- (int)match:(NSArray *)otherCards {
+    int score = 0;
+    if([otherCards count] == 1){
+        PlayingCard *otherCard = [otherCards firstObject];
+        if ([self.suit isEqualToString:otherCard.suit]) {
+            score=1;
+        }else if(self.rank == otherCard.rank){
+            score = 4;
+        }
+    }
+    
+    return score;
+}
+
 @synthesize suit = _suit; // because we implement both the setter and the getter we need to synthetize the property
 
 - (NSString *)contents { // inherits from Card so we are overriding this property getter
